@@ -1,0 +1,77 @@
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
+	color: #329AC7;
+}
+.btn{
+	background-color: #1e7da6;
+	
+}
+.btn:hover{
+	background-color: #0080b1;
+	border-color: rgba(58,152,62,1.00);
+	color: #fff;
+}
+.club .panel .panel-title i{
+	color: #fff;
+}
+.coaches h6{
+	color: #ff5335;
+}
+.coaches .coaches-item{
+	border: 1px rgba(255,255,255,0.9);
+}
+.contact .contact-info{
+	background-color: #329ac7;
+}
+.contact .contact-info:after{
+	border-top: 390px solid #ff5335;
+}
+.features-item i{
+	border: 0px solid #ff5335;
+	color: #ff5335;
+}
+.features-item:hover i {
+	background-color:none;
+}
+.features-item h4:after{
+	background: #ff5335;
+}
+.item-thumbnail .overthumb{
+	background: #ff5335;
+}
+.login-button>button{
+	color: #ff5335;
+}
+.login-button>button:hover{
+	background: #ff5335;
+}
+.navbar-header a.navbar-brand {
+	background: url("../images/oss-logo.svg") no-repeat center;
+	position: absolute;
+	left:0;
+	padding: 36px 124px!important;
+	background-color: rgba(69,166,33,100);
+}
+.patners .owl-theme .owl-controls .owl-prev:before{
+	color: #ff5335;
+}
+.patners .owl-theme .owl-controls .owl-prev:before, .patners .owl-theme .owl-controls .owl-next:before{
+	color: #ff5335;
+}
+.pricing .pricing-item:before{
+	background: #ff5335;
+}
+.social li a:hover{
+	color: #AFAFAF;
+}
+.testimonials .owl-carousel .current figure{
+	border-color: #ff5335;
+}
+.testimonials .owl-carousel .current figure:after{
+	border-top-color: #ff5335;
+}
+.tooltip-inner{
+	background: #fff365!important;
+}
+.tooltip-arrow{
+	border-top-color: #ff5335!important;
+}
