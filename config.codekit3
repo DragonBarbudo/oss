@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/android-icon-36x36.png": {
 		"ft": 32768,
 		"iS": 2075,
@@ -52,6 +59,13 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
 		},
 	"\/contact-form.php": {
 		"cB": 0,
