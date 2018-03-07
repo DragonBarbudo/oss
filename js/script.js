@@ -315,6 +315,34 @@ $('.container a').click(function(){
 	
 
 
+	
 
 
 })(jQuery);
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+
+
+	$('.marcador').hover(function(){
+		var vars = $(this).attr('class');
+		$('.marker-window').show();
+		$('.marker-window .name').html($(this).attr('data'));
+		$('.marker-window .l img').hide();
+		if( vars.includes('oss') ){  $('.marker-window .l .oss').show(); }
+		if( vars.includes('ssa') ){ $('.marker-window .l .ssa').show(); }
+		if( vars.includes('tpt') ){ $('.marker-window .l .tpt').show(); }
+	}, function(){
+		$('.marker-window').hide();
+		$('.marker-window .l img').hide();
+	});
+
+
+});

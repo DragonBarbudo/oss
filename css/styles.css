@@ -1176,7 +1176,7 @@ div.vd-bg {
 
 
 /* ########## MOD 180228 ###########*/
-
+/*
 li.language {
 	position: absolute;
 	right: 20px;
@@ -1195,4 +1195,42 @@ li.language a img {
 }
 li.language a:hover:after {
 	display: none;
+}
+*/
+.sucursales-map {
+	text-align: center;
+}
+.sucursales-map svg {
+	max-width: 100%;
+}
+.sucursales-map use.marcador {
+	fill: #1384C3;
+	color: #1384C3;
+	position: relative;
+}
+.sucursales-map use.marcador:hover {
+	cursor: pointer;
+	fill: #aaaa;
+	color: #aaa;
+}
+
+
+.sucursales-map{
+	position: relative;
+}
+.marker-window{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: #fff;
+	border-radius: 20px;
+	padding: 20px;
+	color:#000;
+	text-align: center;
+	display: none;
+}
+.marker-window .l{
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	margin-top: 20px;
 }
