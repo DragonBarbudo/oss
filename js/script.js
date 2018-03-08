@@ -32,7 +32,7 @@
 		var animation = elem.data('animation');
 		if ( !elem.hasClass('visible') ) {
 			var animationDelay = elem.data('animation-delay');
-			
+
 			if ( animationDelay ) {
 				setTimeout(function(){
 					elem.addClass( animation + " visible" );
@@ -54,7 +54,7 @@
 		$('a[data-rel]').each(function() {
 			$(this).attr('rel', $(this).data('rel'));
 		});
-		
+
 		$(".fancybox").fancybox({
 			openEffect	: 'none',
 			closeEffect	: 'none'
@@ -63,7 +63,7 @@
 
 
 
-    
+
 
 	/*************************  $Login Animation  **************************/
 	//http://tympanus.net/Development/ButtonComponentMorph/
@@ -113,18 +113,18 @@
 			} );
 		} );
 
-	
+
 
 	/*************************  $One Page Scroll  **************************/
 	$('.navbar-nav').onePageNav({
 		currentClass: 'active',
 		filter: ':not(.exclude)',
 	});
-	
-	
-$('.container a').click(function(){ 
 
-    var $target = $($(this).data('target')); 
+
+$('.container a').click(function(){
+
+    var $target = $($(this).data('target'));
 
     if(!$target.hasClass('in'))
 
@@ -178,7 +178,7 @@ $('.container a').click(function(){
 				items: 3
 			},
 
-		},		
+		},
 	});
 
 	owl.on('changed.owl.carousel', function(e){
@@ -194,10 +194,10 @@ $('.container a').click(function(){
 
 
 	/*****************************  $Parallax  *****************************/
-	$('.parallax').each(function(){ 
+	$('.parallax').each(function(){
 		//http://mrbool.com/how-to-create-parallax-effect-with-css-and-jquery/27274#ixzz34LPRngy6
 		var $obj = $(this);
-		$(window).scroll(function() { 
+		$(window).scroll(function() {
 			if($(document).width() > 500) {
 				var yPos = -($(window).scrollTop() / $obj.data('speed'));
 				var bgpos = '50% '+ yPos + 'px';
@@ -220,12 +220,12 @@ $('.container a').click(function(){
 			    });
 			});
 
-		
+
 
 
 	/****************************  $Preloader  *****************************/
 	$(window).load(function() {
-		$('#preloader').fadeOut('slow'); 
+		$('#preloader').fadeOut('slow');
 	});
 
 
@@ -233,11 +233,11 @@ $('.container a').click(function(){
 	/**************************  $Send Forms  ******************************/
 	var $form = $('form');
 
-	$form.on( 'submit' , function(e){ 
+	$form.on( 'submit' , function(e){
 		if ( $(this).data('ajax') == 1 ) {
 			e.preventDefault();
 			sendForm( $(this) );
-		} 
+		}
 	})
 
 	function sendForm($form){
@@ -249,7 +249,7 @@ $('.container a').click(function(){
 		//console.log(url, method, fieldsData, $form, showResults)
 	}
 
-	
+
 	function getFieldsData($form) {
 		var $fields = $form.find('input, button, textarea, select'),
 			fieldsData = {};
@@ -260,7 +260,7 @@ $('.container a').click(function(){
 				type = $(this).attr('type');
 
 			if ( typeof name !== 'undefined' ){
-				
+
 				if 	( type == 'checkbox' || type == 'radio' ){
 
 					if ( $(this).is(':checked') ){
@@ -269,7 +269,7 @@ $('.container a').click(function(){
 				} else {
 					fieldsData[name] = val;
 				}
-					
+
 			}
 		});
 
@@ -281,9 +281,9 @@ $('.container a').click(function(){
 			$response = $form.find('.form-response');
 
 		$.ajax({
-			beforeSend: function(objeto){ 
+			beforeSend: function(objeto){
 				$response.html('');
-				$btn.button('loading'); 
+				$btn.button('loading');
 			},
 			complete: function(objeto, exito){ $btn.button('reset'); },
 			data: data,
@@ -312,10 +312,10 @@ $('.container a').click(function(){
 
 	$('.social a').tooltip({placement: 'top'})
 	$('.social a').hover(function() {changeTooltipColorTo('#ff5335')});
-	
 
 
-	
+
+
 
 
 })(jQuery);
@@ -331,14 +331,25 @@ $('.container a').click(function(){
 $(document).ready(function(){
 
 
-	$('.marcador').hover(function(){
+	$('.marcador').hover(function(e){
 		var vars = $(this).attr('class');
-		$('.marker-window').show();
+		var posx = $(this).attr('x');
+		var posy = $(this).attr('y');
+		var parentWidthH = $(this).width()/2;
+		var parentOffset = $(this).parent().offset();
+
 		$('.marker-window .name').html($(this).attr('data'));
 		$('.marker-window .l img').hide();
 		if( vars.includes('oss') ){  $('.marker-window .l .oss').show(); }
 		if( vars.includes('ssa') ){ $('.marker-window .l .ssa').show(); }
 		if( vars.includes('tpt') ){ $('.marker-window .l .tpt').show(); }
+
+
+		var mx = e.pageX-($('.marker-window').width()/2);
+		var my = e.pageY-parentOffset.top-$('.marker-window').height()-10;
+		$('.marker-window').show().css({'left':mx+'px', 'top':my+'px'});
+
+
 	}, function(){
 		$('.marker-window').hide();
 		$('.marker-window .l img').hide();

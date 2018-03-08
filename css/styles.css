@@ -158,7 +158,7 @@ h4 {
   color:#fff;
   font-size: 1.1em;
   font-weight: 500;
-  letter-spacing: -0.5px;	
+  letter-spacing: -0.5px;
   text-align: left;
 }
 h5 {
@@ -176,7 +176,7 @@ h6 {
   color: #fff;
 }
 h7 {
-	
+
   font-size: 0.875em;
   text-align: center;
 }
@@ -185,16 +185,16 @@ h8 {
   color:#fff;
   font-size: .75em;
   font-weight: 300;
-  letter-spacing: -0.8px;	
-  text-align: center;	
+  letter-spacing: -0.8px;
+  text-align: center;
 
-	
-  
+
+
 }
 img {
   max-width: 100%;
   height: auto;
-	
+
 }
 input::-moz-focus-inner {
   border: 0;
@@ -219,10 +219,10 @@ p1 {
 	line-height: 1.5em;
 	text-align: justify;
 }
-  
+
 p a {
   font-size: 1em;
-	
+
 }
 section {
   overflow: hidden;
@@ -299,9 +299,9 @@ ul2 {
 	}
 
 	.animate.visible { visibility: visible; }
-	
+
 	.animate.hidden { visibility: hidden; }
-  
+
 /**
  *
  *
@@ -446,7 +446,7 @@ ul2 {
 .features-item:hover i {
   border-color: #242424;
   color: #242424;
-  
+
 }
 .features-item i {
   -webkit-border-radius: 0px;
@@ -863,7 +863,7 @@ article{
   margin-top: 0px;
   position: relative;
   text-align: justify;
-	
+
 }
 
 /*******************************  $Sucursales  ********************************/
@@ -872,7 +872,7 @@ article{
 	background-color: #329acf;
 	background-size: cover;
     padding: 50px 0 50px 0;
-	
+
 	}
 
 div.pinch-zoom {
@@ -886,9 +886,9 @@ div.pinch-zoom {
 	background:url(../css/images/mapa-movil.png) no-repeat;
 	position:center;
 	overflow:visible;
-	
+
 	}
-	
+
 #mapa{
 	width:810px;
 	height:600px;
@@ -896,7 +896,7 @@ div.pinch-zoom {
 	background:url(../css/images/mapamx.png) no-repeat;
 	position:center;
 	overflow:hidden;
-	
+
 }
 #nuevolaredo{
 	width:28px;
@@ -911,14 +911,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #nuevolaredo:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #monterrey{
 	width:28px;
@@ -933,14 +933,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #monterrey:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #manzanillo{
 	width:28px;
@@ -955,14 +955,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #manzanillo:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #guadalajara{
 	width:28px;
@@ -977,14 +977,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #guadalajara:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #teoloyuca{
 	width:28px;
@@ -999,14 +999,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #teoloyuca:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #tultitlan{
 	width:28px;
@@ -1021,14 +1021,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #tultitlan:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #puebla{
 	width:28px;
@@ -1043,14 +1043,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #puebla:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #veracruz{
 	width:28px;
@@ -1065,14 +1065,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #veracruz:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 #chiapas{
 	width:28px;
@@ -1087,14 +1087,14 @@ div.pinch-zoom {
 	height:45px;
 	background:url(../css/images/gris.png) no-repeat;
 	position:absolute;
-	
+
 }
 #chiapas:active{
 	width:28px;
 	height:45px;
 	background:url(../css/images/azul.png) no-repeat;
 	position:absolute;
-	
+
 }
 
 /**
@@ -1146,7 +1146,7 @@ div.pinch-zoom {
 	text-align: justify;
 	height: auto;
 }
-	
+
 
 
 
@@ -1201,7 +1201,8 @@ li.language a:hover:after {
 	text-align: center;
 }
 .sucursales-map svg {
-	max-width: 100%;
+	max-width: 90%;
+  height: auto;
 }
 .sucursales-map use.marcador {
 	fill: #1384C3;
@@ -1214,23 +1215,34 @@ li.language a:hover:after {
 	color: #aaa;
 }
 
+.infowindow{
+  position: absolute;
+  right: 40px; top: 40px;
+}
+@media(max-width:600px){
+  .infowindow{
+  top: -40px;
+  right: 0;
+  width: 200px;
+  }
+}
 
 .sucursales-map{
 	position: relative;
+  background: #fff;
+  padding: 40px 0;
 }
 .marker-window{
 	position: absolute;
-	right: 20px;
-	top: 20px;
+	//right: 20px;
+	//top: 20px;
 	background: #fff;
-	border-radius: 20px;
-	padding: 20px;
+	padding: 5px;
 	color:#000;
 	text-align: center;
 	display: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
-.marker-window .l{
-	padding-top: 10px;
-	border-top: 1px solid #eee;
-	margin-top: 20px;
+.marker-window .l img{
+	margin-top: 5px;
 }
