@@ -1227,6 +1227,11 @@ li.language a:hover:after {
   }
 }
 
+.sucmap{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .sucursales-map{
 	position: relative;
   background: #fff;
